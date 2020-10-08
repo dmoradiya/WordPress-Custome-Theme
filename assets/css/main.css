@@ -1,3 +1,18 @@
 /* Testing to see if our CSS loaded... */
-* { font-family: Arial, Helvetica, sans-serif; color: brown; }
-html,body { background: salmon; }
+* { font-family: Arial, Helvetica, sans-serif }
+    
+h1 {
+    color: red;
+}
+
+nav {
+    background-color: rgb(19, 165, 155);
+    color: #fff;
+    height: 15vh;
+}
+.menu-item  {
+    list-style-type: none;
+}
+.menu-item a {
+    text-decoration: none;
+}
